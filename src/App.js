@@ -5,11 +5,16 @@ function App() {
 		<div className='App'>
 			{/* header with navbar */}
 			<header>
-				<nav>
-					<ul>
-						<li>Home</li>
-						<li>About</li>
-						<li>Contact</li>
+				<nav className='main-nav'>
+					<ul className='logo-block'>
+						<li className='logo'>Logo</li>
+					</ul>
+					<ul className='nav-items'>
+						<li className='nav-item'>Home</li>
+						<li className='nav-item'>About</li>
+						<li className='nav-item'>Services</li>
+						<li className='nav-item'>Projects</li>
+						<li className='nav-item'>Contact</li>
 					</ul>
 				</nav>
 			</header>
